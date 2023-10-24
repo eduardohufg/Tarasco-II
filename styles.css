@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
     margin: 40px;
     background-color: #f7d9b4;
     
@@ -12,7 +12,7 @@ body {
 }
 
 button {
-    background-color: #007BFF;
+    background-color: #1a5da5;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -22,3 +22,12 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+.logo {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+  }
+  
