@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Carnes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tarasco II</h1>
+    
+    <div id="productos">
+        <div class="producto">
+            <h2>Res</h2>
+            <p>Precio: $100/kg</p>
+            <button onclick="agregarAlCarrito('Res', 100)">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <h2>Pollo</h2>
+            <p>Precio: $60/kg</p>
+            <button onclick="agregarAlCarrito('Pollo', 60)">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <h2>Cerdo</h2>
+            <p>Precio: $80/kg</p>
+            <button onclick="agregarAlCarrito('Cerdo', 80)">Agregar al carrito</button>
+        </div>
+    </div>
+    
+    <h2>Carrito</h2>
+    <ul id="carrito"></ul>
+    
+    <script src="script.js"></script>
+</body>
+</html>
