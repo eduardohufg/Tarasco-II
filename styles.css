@@ -5,10 +5,37 @@ body {
     
 }
 
-.producto {
-    border: 1px solid #ddd;
+.productos{
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.producto1 {
+    border: 1px solid #b81d1d;
+    border-radius: 20px;
     padding: 20px;
     margin: 20px 0;
+    width: 500px;
+    height: 500px;
+}
+.producto2 {
+    border: 1px solid #e23434;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 500px;
+    height: 500px;
+}
+.producto3 {
+    border: 1px solid #c74848;
+    border-radius: 20`px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 500px;
+    height: 500px;
 }
 
 button {
@@ -36,6 +63,16 @@ button:hover {
     width: 350px;
     height: 350px;
   }
+  
+.res-carne{
+    position: center;
+    right: 7%; 
+    top: 25%;
+    width:350px;
+    height: 350px;
+    
+    border-radius: 30px;
+}
 
   label {
     font-weight: bold;
@@ -48,5 +85,11 @@ input[type="number"] {
     font-size: 20px;
     border: 2px solid #e02b2b;
     border-radius: 5px;
+}
+.carritoo{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    
 }
   

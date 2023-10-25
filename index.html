@@ -14,12 +14,12 @@
 
     
     <div class= "contenedor">
-        <img src="imagenes/logo.png" class="logo">
+        <img src="imagenes/logo.png" class="logo"/>
     </div>
 
     <div style="text-align: center;">
         <a href = "carrito.html">
-        <button style="position: absolute;right: 7%; top: 20%; background-color: brown;">Carrito</button>
+        <img src="imagenes/carrito.png" class=" carritoo"/>
     </a>
     </div>
 
@@ -29,43 +29,24 @@
 
     
 
-    <div id="productos">
-        <div class="producto">
+    <div class="productos">
+        <div class="producto1">
             <h2>Res</h2>
-            <p>Precio: $100/kg</p>
-            <form>
-                <label for="numero">Cantidad:</label>
-                <input type="number" id="numero" name="numero">
-            </form>
-            <br>
-    
-            <button onclick="agregarAlCarrito('Res', 100)">Agregar al carrito</button>
+            <img src="imagenes/carne-de-res.jpg" class = "res-carne">
+            
+            
         </div>
-        <div class="producto">
+        <div class="producto2">
             <h2>Pollo</h2>
-            <p>Precio: $60/kg</p>
-            <form>
-                <label for="numero">Cantidad:</label>
-                <input type="number" id="numero" name="numero">
-            </form>
-            <br>
-            <button onclick="agregarAlCarrito('Pollo', 60)">Agregar al carrito</button>
+            <img src="imagenes/pollo.jpg" class = "res-carne">
+            
         </div>
-        <div class="producto">
+        <div class="producto3">
             <h2>Cerdo</h2>
-            <p>Precio: $80/kg</p>
-            <form>
-                <label for="numero">Cantidad:</label>
-                <input type="number" id="numero" name="numero">
-            </form>
-            <br>
-            <button onclick="agregarAlCarrito('Cerdo', 80)">Agregar al carrito</button>
+            <img src="imagenes/cerdo.jpg" class = "res-carne">
+            
         </div>
     </div>
-    
-    
-    <h2>Carrito</h2>
-    <ul id="carrito"></ul>
     
     <script src="script.js"></script>
 </body>
