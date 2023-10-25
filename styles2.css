@@ -1,8 +1,7 @@
 body {
     font-family: 'Nunito', sans-serif;
     margin: 40px;
-    background-color: #e02b2b;
-    
+    background-color: rgb(235, 25, 58);
 }
 
 button {
@@ -16,6 +15,8 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+
 
 .contenedor {
     background-color: #e02b2b;
@@ -80,8 +81,9 @@ h1 {
 
 
 /* Hide the images by default */
-.mySlides {
-  display: none;
+.mySlides img{
+  border: 3px solid rgb(255, 255, 255);
+
   
 }
 
