@@ -1,11 +1,12 @@
 body {
     font-family: 'Nunito', sans-serif;
     margin: 40px;
-    background-color: #f7d9b4;
+    background-color: #1a1918;
     
 }
 
 .productos{
+    color: aliceblue;
     font-size: 200%;
     display: flex;
     justify-content: center;
@@ -14,7 +15,7 @@ body {
 }
 
 .producto1 {
-    border: 1px solid #b81d1d;
+    border: 5px solid #b81d1d;
     border-radius: 20px;
     padding: 20px;
     margin: 20px 0;
@@ -22,7 +23,7 @@ body {
     height: 500px;
 }
 .producto2 {
-    border: 1px solid #e23434;
+    border: 5px solid #d1a11b;
     border-radius: 20px;
     padding: 20px;
     margin: 20px 0;
@@ -30,8 +31,8 @@ body {
     height: 500px;
 }
 .producto3 {
-    border: 1px solid #c74848;
-    border-radius: 20`px;
+    border: 5px solid #d66764;
+    border-radius: 20px;
     padding: 20px;
     margin: 20px 0;
     width: 500px;
@@ -52,15 +53,12 @@ button:hover {
 
 .contenedor {
     background-color: #e02b2b;
-
-
     text-align: center;
 }
 .logo {
-    position: center;
     right: 7%; 
-    top: 25%;
-    width: 350px;
+    top: 20%;
+    width: 330px;
     height: 350px;
   }
   
@@ -90,6 +88,8 @@ input[type="number"] {
     position: absolute;
     width: 150px;
     height: 150px;
+    right: 7%;
+    top: 12%
     
 }
   
