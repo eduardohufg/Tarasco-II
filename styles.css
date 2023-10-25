@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin: 40px;
     background-color: #f7d9b4;
     
@@ -23,11 +23,30 @@ button:hover {
     background-color: #0056b3;
 }
 
+.contenedor {
+    background-color: #e02b2b;
+
+
+    text-align: center;
+}
 .logo {
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    height: 300px;
+    position: center;
+    right: 7%; 
+    top: 25%;
+    width: 350px;
+    height: 350px;
   }
+
+  label {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 50px;
+    height: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #e02b2b;
+    border-radius: 5px;
+}
   

@@ -4,29 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de Carnes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Nunito:wght@200;400&family=Tilt+Neon&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!--<h1>Tarasco II</h1>-->
+
     
-    <img src="imagenes/logo.png" class="logo">
+    <div class= "contenedor">
+        <img src="imagenes/logo.png" class="logo">
+    </div>
+
+    <div style="text-align: center;">
+        <a href = "carrito.html">
+        <button style="position: absolute;right: 7%; top: 20%; background-color: brown;">Carrito</button>
+    </a>
+    </div>
+
+    <div style="text-align: center;">
+        <h3 style="position: absolute;right: 7%; top: 10%; font-size:100%;">WhatsApp: 5565422917</h3>
+    </div>
+
+    
+
     <div id="productos">
         <div class="producto">
             <h2>Res</h2>
             <p>Precio: $100/kg</p>
+            <form>
+                <label for="numero">Cantidad:</label>
+                <input type="number" id="numero" name="numero">
+            </form>
+            <br>
+    
             <button onclick="agregarAlCarrito('Res', 100)">Agregar al carrito</button>
         </div>
         <div class="producto">
             <h2>Pollo</h2>
             <p>Precio: $60/kg</p>
+            <form>
+                <label for="numero">Cantidad:</label>
+                <input type="number" id="numero" name="numero">
+            </form>
+            <br>
             <button onclick="agregarAlCarrito('Pollo', 60)">Agregar al carrito</button>
         </div>
         <div class="producto">
             <h2>Cerdo</h2>
             <p>Precio: $80/kg</p>
+            <form>
+                <label for="numero">Cantidad:</label>
+                <input type="number" id="numero" name="numero">
+            </form>
+            <br>
             <button onclick="agregarAlCarrito('Cerdo', 80)">Agregar al carrito</button>
         </div>
     </div>
+    
     
     <h2>Carrito</h2>
     <ul id="carrito"></ul>
