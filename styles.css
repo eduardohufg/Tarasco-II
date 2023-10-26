@@ -2,7 +2,6 @@ body {
     font-family: 'Nunito', sans-serif;
     margin: 40px;
     background-color: #1a1918;
-    
 }
 
 .image-button {
@@ -104,7 +103,6 @@ button:hover {
 .clickable-logo:hover {
     opacity: 0.8; /* Opcional: hace que la imagen se vea ligeramente transparente al pasar el mouse por encima */
 }
-
 
 
 

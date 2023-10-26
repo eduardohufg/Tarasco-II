@@ -95,6 +95,22 @@ h1 {
     color: #e33e3e;
 }
 
+.carrito_extranjero{
+  position: absolute;
+  right: 0px; 
+  top: 10%;
+  width: 35%;
+}
+.clickable_carrito_extranjero{
+  cursor: pointer;
+  transition: opacity 0.3s; /* Opcional: añade un efecto de transición al pasar el mouse por encima */
+  width: 35% ;
+}
+.clickable_carrito_extranjero:hover {
+  opacity: 0.8; /* Opcional: hace que la imagen se vea ligeramente transparente al pasar el mouse por encima */
+}
+
+
 
 /* Hide the images by default */
 .mySlides img{
