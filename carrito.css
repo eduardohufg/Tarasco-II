@@ -47,7 +47,7 @@ button:hover {
     position: center;
     right: 7%; 
     top: 25%;
-    width:300px;
+    width:200px;
     height: auto;
     border-radius: 30px;
 }
@@ -55,7 +55,7 @@ button:hover {
 .clickable-logo {
     cursor: pointer;
     transition: opacity 0.3s; /* Opcional: añade un efecto de transición al pasar el mouse por encima */
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 
