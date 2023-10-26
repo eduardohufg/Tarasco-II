@@ -2,16 +2,22 @@ body {
     font-family: 'Nunito', sans-serif;
     margin: 40px;
     background-color: #1a1918;
-    
+    color: #000;
 }
 
 #carrito{
-    position: absolute;
+    position: relative;
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: #FFF;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .productos{
-    color: aliceblue;
-    font-size: 200%;
+    color: #000;
+    font-size: 24px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -23,6 +29,7 @@ button {
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    margin-top: 15px;
 }
 
 button:hover {
@@ -32,28 +39,40 @@ button:hover {
 .contenedor {
     background-color: #e02b2b;
     text-align: center;
+    margin-bottom: 20px;
 }
-.logo {
+
+.logo{
+    position: center;
     right: 7%; 
-    top: 20%;
-    width: 230px;
-    height: 220px;
-  }
-  
+    top: 25%;
+    width:300px;
+    height: auto;
+    border-radius: 30px;
+}
 
-  label {
-    font-weight: bold;
+.clickable-logo {
+    cursor: pointer;
+    transition: opacity 0.3s; /* Opcional: añade un efecto de transición al pasar el mouse por encima */
+    width: 300px;
+    height: auto;
+}
+
+.clickable-logo:hover {
+    opacity: 0.8; /* Opcional: hace que la imagen se vea ligeramente transparente al pasar el mouse por encima */
+    
 }
 
 
-#carrito{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 42%;
-}
-  
+
+
 li {
-    color: white;
-    position: relative;
+    color: #000;
+    margin-bottom: 10px;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+label {
+    font-weight: bold;
 }
