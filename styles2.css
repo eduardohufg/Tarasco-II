@@ -1,22 +1,38 @@
 body {
     font-family: 'Nunito', sans-serif;
     margin: 40px;
-    background-color: rgb(235, 25, 58);
+    /*background-color: rgb(235, 25, 58);*/
+    background-color: #000000;
+}
+
+#adder{
+  background-color: #f2f2f2;
+  color: #e02b2b;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 90%;  /* Center vertically */
+  left: 51.7%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center the button */
 }
 
 button {
-    background-color: #1a5da5;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
+  background-color: #f2f2f2;
+  color: #e02b2b;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: relative;
+  top: 50%;  /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center the button */
 }
 
-button:hover {
-    background-color: #0056b3;
+button:hover, #adder:hover {
+  background-color: #df2a2a;
+  color: white;
 }
-
-
 
 .contenedor {
     background-color: #e02b2b;
@@ -32,13 +48,13 @@ button:hover {
     height: 350px;
   }
   
-.res-carne{
-    position: center;
-    right: 7%; 
-    top: 25%;
-    width:350px;
-    height: 350px;
-    
+  .res-carne {
+    width: auto; /* Allow it to adjust to screen width */
+    max-width: 100%; /* Limit the width to 100% of the parent container */
+    position: relative;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the element */
     border-radius: 30px;
 }
 
@@ -99,6 +115,7 @@ h1 {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
+  top: 90%;
   position: absolute;
   bottom: 8px;
   width: 100%;

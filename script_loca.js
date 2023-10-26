@@ -1,4 +1,7 @@
 let slideIndex = 1;
+let resdata  = [["agauyon", 750], 
+["roastbeef", 200], ["espaldilla", 400], ["pecho", 700], 
+["falda", 620], ["suadero", 620], ["suadero", 125], ["bola", 370],["pierna", 550]];
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -38,3 +41,10 @@ window.addEventListener('keydown', function(e) {
       break;
   }
 });
+
+function resName(){
+  return resdata[slideIndex - 1][0]
+}
+function resPrice(){
+  return resdata[slideIndex - 1][1]
+}
