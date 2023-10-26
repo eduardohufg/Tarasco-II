@@ -58,7 +58,7 @@ button:hover {
 .logo {
     right: 7%; 
     top: 20%;
-    width: 330px;
+    width: 320px;
     height: 350px;
   }
   
@@ -86,10 +86,13 @@ input[type="number"] {
 }
 .carritoo{
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 90px;
     right: 7%;
-    top: 12%
+    top: 18%
     
 }
-  
+a {
+    text-decoration: none;
+    color: #dfd3d3;
+}
