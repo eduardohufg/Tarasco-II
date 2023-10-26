@@ -60,7 +60,7 @@ function mostrarCarrito() {
             totalGeneral += totalItem;
 
             const li = document.createElement('li');
-            li.textContent = `${item.nombre} (x${item.cantidad}) - $${item.precio} c/u = $${totalItem}`;
+            li.textContent = `${item.nombre} (x${item.cantidad}) - $${item.precio} /kg = $${totalItem}`;
             lista.appendChild(li);
         }
 
