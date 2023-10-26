@@ -7,12 +7,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Nunito:wght@200;400&family=Tilt+Neon&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="carrito.css">
 </head>
-<body>
+<body onload="mostrarCarrito()">
 
-    <button onclick="mostrarCarrito()">Haz clic</button>
 
-<script src="script.js"></script>
+    <div class= "contenedor">
+        <img src="imagenes/logo.png" class="logo"/>
+    </div>
+
+    <div style="text-align: center;">
+        <h3 style="position: absolute;right: 7%; top: 10%; font-size:100%;">WhatsApp: 5565422917</h3>
+    </div>
+
+    
+
+    <ul id="carrito"></ul>
+
+<script src="script.js"></script> 
+<script src="script_loca.js"></script> 
+
 </body>
 </html>

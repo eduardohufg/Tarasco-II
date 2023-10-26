@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
+<title>
+  
+</title>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,61 +13,73 @@
     <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
+  <h1>Res</h1>
     <!-- Slideshow container -->
+
+  
+
 <div class="slideshow-container">
 
     <!-- Full-width images with number and caption text -->
     <div class="mySlides">
 
       <img class="crop"  src="imagenes/aguatyon.jpg" style="width:100%">
-      <div class="text">Caption Text</div>
+      <div class="text">Precio: $750</div>
     </div>
   
     <div class="mySlides">
 
       <img src="imagenes/roastbeef.jpg" style="width:100%">
-      <div class="text">Caption Two</div>
+      <div class="text">Precio: $200</div>
     </div>
   
     <div class="mySlides">
 
       <img src="imagenes/espaldilla.jpg" style="width:100%">
-      <div class="text">Caption Three</div>
+      <div class="text">Precio: $400</div>
     </div>
 
     <div class="mySlides">
 
         <img src="imagenes/pecho.jpg" style="width:100%">
-        <div class="text">Caption </div>
+        <div class="text">Precio: $700 </div>
     </div>
 
     <div class="mySlides">
 
         <img src="imagenes/falda.jpg" style="width:100%">
-        <div class="text">Caption </div>
+        <div class="text">Precio: $620 </div>
     </div>
 
     <div class="mySlides">
         <img src="imagenes/suadero.jpg" style="width:100%">
-        <div class="text">Caption </div>
+        <div class="text">Precio: $125 </div>
     </div>
 
     <div class="mySlides">
         <img src="imagenes/bola.jpg" style="width:100%">
-        <div class="text">Caption </div>
+        <div class="text">Precio: $370 </div>
     </div>
 
     <div class="mySlides">
         <img src="imagenes/pierna.jpg" style="width:100%">
-        <div class="text">Caption </div>
+        <div class="text">Precio: $550 </div>
     </div>
   
     <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
   </div>
   <br>
   
+  
+
+  <div style="text-align: center;">
+    <a href = "carrito.html" class="carrito_extranjero">
+    <img src="imagenes/carrito.png" class="clickable_carrito_extranjero"/>
+  </a>
+  </div>
+
+
   <!-- The dots/circles -->
   <div style="text-align:center">
     <span class="dot" onclick="currentSlide(1)"></span> 
@@ -73,7 +88,13 @@
   </div>
 
 
+  <button  onclick="plusSlides(-1)"><</button>
+  <button onclick="plusSlides(1)">></button>
 
+  <button id="adder" onclick="agregarAlCarrito(resName(),resPrice())">Add Product 1</button>
+
+  
   <script src="script_loca.js"></script>
+
 </body>
 </html>

@@ -2,7 +2,30 @@ body {
     font-family: 'Nunito', sans-serif;
     margin: 40px;
     background-color: #1a1918;
+}
+
+.image-button {
+    display: inline-block;
+    text-align: left;
+}
+
+.clickable-image {
+    cursor: pointer;
+    transition: opacity 0.3s; /* Opcional: añade un efecto de transición al pasar el mouse por encima */
+}
+
+.clickable-image:hover {
+    opacity: 0.8; /* Opcional: hace que la imagen se vea ligeramente transparente al pasar el mouse por encima */
+}
+
+.res-carne{
+    position: center;
+    right: 7%; 
+    top: 25%;
+    width:350px;
+    height: 350px;
     
+    border-radius: 30px;
 }
 
 .productos{
@@ -62,15 +85,26 @@ button:hover {
     height: 350px;
   }
   
-.res-carne{
+.logo{
     position: center;
     right: 7%; 
     top: 25%;
     width:350px;
-    height: 350px;
-    
+    height: auto;
     border-radius: 30px;
 }
+.clickable-logo {
+    cursor: pointer;
+    transition: opacity 0.3s; /* Opcional: añade un efecto de transición al pasar el mouse por encima */
+    width: 350px;
+    height: auto;
+}
+
+.clickable-logo:hover {
+    opacity: 0.8; /* Opcional: hace que la imagen se vea ligeramente transparente al pasar el mouse por encima */
+}
+
+
 
   label {
     font-weight: bold;
@@ -86,6 +120,7 @@ input[type="number"] {
 }
 .carritoo{
     position: absolute;
+<<<<<<< HEAD
     width: 80px;
     height: 90px;
     right: 7%;
@@ -96,3 +131,41 @@ a {
     text-decoration: none;
     color: #dfd3d3;
 }
+=======
+    width: 230px;
+    height: auto;
+    right: 7%;
+    top: 10%
+}
+.clickable-carrito {
+    cursor: pointer;
+    transition: opacity 0.3s; /* Opcional: añade un efecto de transición al pasar el mouse por encima */
+    width: 230px;
+    height: auto;
+}
+
+.clickable-carrito:hover {
+    opacity: 0.8; /* Opcional: hace que la imagen se vea ligeramente transparente al pasar el mouse por encima */
+}
+
+
+.image-button {
+    position: absolute;
+    width: 190px;
+    height: auto;
+    left: 7%;
+    top: 13%
+}
+
+.clickable-image {
+    cursor: pointer;
+    transition: opacity 0.3s; /* Opcional: añade un efecto de transición al pasar el mouse por encima */
+    width: 190px;
+    height: auto;
+}
+
+.clickable-image:hover {
+    opacity: 0.8; /* Opcional: hace que la imagen se vea ligeramente transparente al pasar el mouse por encima */
+}
+
+>>>>>>> 8f49a44c9fbc83527faa5b7ea80ccd1ee5b9b879
