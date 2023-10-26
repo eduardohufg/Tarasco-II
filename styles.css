@@ -18,26 +18,31 @@ body {
     opacity: 0.8; /* Opcional: hace que la imagen se vea ligeramente transparente al pasar el mouse por encima */
 }
 
-@keyframes rotate {
+.led-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #333; /* Color de fondo oscuro para simular un LED screen */
+    white-space: nowrap;
+    position: relative;
+}
+
+@keyframes marquee {
     0% {
-        transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(7deg);
+        transform: translateX(800%);
     }
     100% {
-        transform: rotate(-7deg);
+        transform: translateX(-100%);
     }
 }
 
-.rotating-text {
-    font-family: 'Helvetica', Bold; /* Usamos Helvetica como tipo de letra */
-    font-size: 2em; /* Cambia el tamaño según lo que necesites */
-    text-align: center;
-    margin: 20px 0;
-    color: aliceblue; /* Color del texto */
-    animation: rotate 1.5s infinite alternate; /* Animación giratoria */
+.led-text {
+    display: inline-block;
+    font-family: 'Helvetica', sans-serif; 
+    font-size: 1.5em;
+    color: aliceblue; 
+    animation: marquee 5s linear infinite; /* Animación que desplaza el texto */
 }
+
 
 
 
