@@ -72,6 +72,14 @@ h2{
 
 }
 
+.botonn {
+    text-align: center;
+    cursor: pointer;
+    transition: opacity 0.3s; /* Opcional: añade un efecto de transición al pasar el mouse por encima */
+    width: 20% ;
+    height: auto;
+
+}
 
 li {
     color: #000;
